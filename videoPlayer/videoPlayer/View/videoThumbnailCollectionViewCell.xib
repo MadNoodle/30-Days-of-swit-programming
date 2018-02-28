@@ -27,7 +27,7 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="66L-9Q-gND">
                         <rect key="frame" x="0.0" y="0.0" width="594" height="240"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH4-BV-q77">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH4-BV-q77">
                         <rect key="frame" x="20" y="199" width="554" height="21"/>
                         <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,19 +40,28 @@
                             <constraint firstAttribute="width" constant="40" id="fMV-8t-1AO"/>
                         </constraints>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C81-9s-dDp">
+                        <rect key="frame" x="177" y="182" width="240" height="3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstItem="tH4-BV-q77" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Cgt-Mb-3dJ"/>
+                <constraint firstItem="C81-9s-dDp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="DSZ-Lm-2q7"/>
                 <constraint firstItem="NQo-Sg-Iu3" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Dbu-Il-snc"/>
+                <constraint firstItem="C81-9s-dDp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="177" id="IGT-Yv-YYj"/>
                 <constraint firstItem="66L-9Q-gND" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KAd-QV-ksr"/>
                 <constraint firstAttribute="bottom" secondItem="66L-9Q-gND" secondAttribute="bottom" id="Mm2-IL-nx2"/>
                 <constraint firstAttribute="bottom" secondItem="tH4-BV-q77" secondAttribute="bottom" constant="20" id="bK5-Wp-mZI"/>
                 <constraint firstAttribute="trailing" secondItem="66L-9Q-gND" secondAttribute="trailing" id="bWh-aO-m4E"/>
+                <constraint firstItem="tH4-BV-q77" firstAttribute="top" secondItem="C81-9s-dDp" secondAttribute="bottom" constant="14" id="crt-d3-aEp"/>
                 <constraint firstItem="tH4-BV-q77" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="199" id="jVi-wk-lMb"/>
                 <constraint firstItem="66L-9Q-gND" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="m2u-FG-NSv"/>
+                <constraint firstItem="66L-9Q-gND" firstAttribute="top" secondItem="NQo-Sg-Iu3" secondAttribute="bottom" constant="-140" id="mo2-ml-O1y"/>
                 <constraint firstItem="NQo-Sg-Iu3" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="msD-cH-1QL"/>
                 <constraint firstAttribute="trailing" secondItem="tH4-BV-q77" secondAttribute="trailing" constant="20" id="rMP-ci-CVB"/>
+                <constraint firstItem="C81-9s-dDp" firstAttribute="top" secondItem="NQo-Sg-Iu3" secondAttribute="bottom" constant="42" id="w27-6E-ICf"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="434" height="226"/>
