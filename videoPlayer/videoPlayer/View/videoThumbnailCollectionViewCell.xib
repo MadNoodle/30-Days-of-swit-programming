@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Black</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="videoCell" id="gTV-IL-0wX" customClass="VideoThumbnailCollectionViewCell" customModule="videoPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="594" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="594" height="240"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="66L-9Q-gND">
+                        <rect key="frame" x="0.0" y="0.0" width="594" height="240"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH4-BV-q77">
+                        <rect key="frame" x="20" y="199" width="554" height="21"/>
+                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="NQo-Sg-Iu3">
+                        <rect key="frame" x="277" y="100" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="eLc-D3-SMi"/>
+                            <constraint firstAttribute="width" constant="40" id="fMV-8t-1AO"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tH4-BV-q77" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Cgt-Mb-3dJ"/>
+                <constraint firstItem="NQo-Sg-Iu3" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Dbu-Il-snc"/>
+                <constraint firstItem="66L-9Q-gND" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KAd-QV-ksr"/>
+                <constraint firstAttribute="bottom" secondItem="66L-9Q-gND" secondAttribute="bottom" id="Mm2-IL-nx2"/>
+                <constraint firstAttribute="bottom" secondItem="tH4-BV-q77" secondAttribute="bottom" constant="20" id="bK5-Wp-mZI"/>
+                <constraint firstAttribute="trailing" secondItem="66L-9Q-gND" secondAttribute="trailing" id="bWh-aO-m4E"/>
+                <constraint firstItem="tH4-BV-q77" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="199" id="jVi-wk-lMb"/>
+                <constraint firstItem="66L-9Q-gND" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="m2u-FG-NSv"/>
+                <constraint firstItem="NQo-Sg-Iu3" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="msD-cH-1QL"/>
+                <constraint firstAttribute="trailing" secondItem="tH4-BV-q77" secondAttribute="trailing" constant="20" id="rMP-ci-CVB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="434" height="226"/>
+            <connections>
+                <outlet property="thumbnail" destination="66L-9Q-gND" id="Zpw-o2-KAg"/>
+                <outlet property="videoTitle" destination="tH4-BV-q77" id="H0V-c9-aGI"/>
+            </connections>
+            <point key="canvasLocation" x="6" y="118"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="play" width="40" height="49"/>
+    </resources>
+</document>
