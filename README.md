@@ -8,3 +8,5 @@ Everyday, i will create a swift program to improve my skills. this project is in
 ### 2 fontPicker
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/fontPicker/fontPicker.gif)
 
+### 3 videoPlayer
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/videoPlayer/videoPlayer.gif)
