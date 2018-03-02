@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B917EBA320495A2A006B67B2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917EBA120495A2A006B67B2 /* Main.swift */; };
+		B917EBA420495A2A006B67B2 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = B917EBA220495A2A006B67B2 /* Main.xib */; };
+		B917EBA7204970EE006B67B2 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917EBA5204970EE006B67B2 /* MessageController.swift */; };
+		B917EBA8204970EE006B67B2 /* MessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B917EBA6204970EE006B67B2 /* MessageController.xib */; };
+		B917EBAC20497115006B67B2 /* StoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917EBAA20497115006B67B2 /* StoriesController.swift */; };
+		B917EBAD20497115006B67B2 /* StoriesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B917EBAB20497115006B67B2 /* StoriesController.xib */; };
+		B94AC51A2048590F009E53DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC5192048590F009E53DF /* AppDelegate.swift */; };
+		B94AC5222048590F009E53DF /* snapchatNavigation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B94AC5202048590F009E53DF /* snapchatNavigation.xcdatamodeld */; };
+		B94AC5242048590F009E53DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94AC5232048590F009E53DF /* Assets.xcassets */; };
+		B94AC5272048590F009E53DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94AC5252048590F009E53DF /* LaunchScreen.storyboard */; };
+		B94AC5322048590F009E53DF /* snapchatNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC5312048590F009E53DF /* snapchatNavigationTests.swift */; };
+		B988ED0B20487D81005A670C /* PhotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B988ED0920487D81005A670C /* PhotController.swift */; };
+		B988ED0C20487D81005A670C /* PhotController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B988ED0A20487D81005A670C /* PhotController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B94AC52E2048590F009E53DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94AC50E2048590F009E53DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94AC5152048590F009E53DF;
+			remoteInfo = snapchatNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B917EBA120495A2A006B67B2 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		B917EBA220495A2A006B67B2 /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		B917EBA5204970EE006B67B2 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		B917EBA6204970EE006B67B2 /* MessageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageController.xib; sourceTree = "<group>"; };
+		B917EBAA20497115006B67B2 /* StoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesController.swift; sourceTree = "<group>"; };
+		B917EBAB20497115006B67B2 /* StoriesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriesController.xib; sourceTree = "<group>"; };
+		B94AC5162048590F009E53DF /* snapchatNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapchatNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94AC5192048590F009E53DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B94AC5212048590F009E53DF /* snapchatNavigation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = snapchatNavigation.xcdatamodel; sourceTree = "<group>"; };
+		B94AC5232048590F009E53DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94AC5262048590F009E53DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94AC5282048590F009E53DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94AC52D2048590F009E53DF /* snapchatNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapchatNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94AC5312048590F009E53DF /* snapchatNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapchatNavigationTests.swift; sourceTree = "<group>"; };
+		B94AC5332048590F009E53DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B988ED0920487D81005A670C /* PhotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotController.swift; sourceTree = "<group>"; };
+		B988ED0A20487D81005A670C /* PhotController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94AC5132048590F009E53DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94AC52A2048590F009E53DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B917EBA9204970F3006B67B2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B917EBA5204970EE006B67B2 /* MessageController.swift */,
+				B917EBA6204970EE006B67B2 /* MessageController.xib */,
+			);
+			name = Message;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B917EBAE20497117006B67B2 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				B917EBAA20497115006B67B2 /* StoriesController.swift */,
+				B917EBAB20497115006B67B2 /* StoriesController.xib */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		B917EBAF20497122006B67B2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B94AC5202048590F009E53DF /* snapchatNavigation.xcdatamodeld */,
+				B94AC5232048590F009E53DF /* Assets.xcassets */,
+				B94AC5252048590F009E53DF /* LaunchScreen.storyboard */,
+				B94AC5192048590F009E53DF /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B94AC50D2048590F009E53DF = {
+			isa = PBXGroup;
+			children = (
+				B94AC5182048590F009E53DF /* snapchatNavigation */,
+				B94AC5302048590F009E53DF /* snapchatNavigationTests */,
+				B94AC5172048590F009E53DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B94AC5172048590F009E53DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94AC5162048590F009E53DF /* snapchatNavigation.app */,
+				B94AC52D2048590F009E53DF /* snapchatNavigationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94AC5182048590F009E53DF /* snapchatNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				B917EBAF20497122006B67B2 /* SupportingFiles */,
+				B917EBAE20497117006B67B2 /* Stories */,
+				B988ED0D20487D86005A670C /* Photo */,
+				B94AC5282048590F009E53DF /* Info.plist */,
+				B988ED142048A830005A670C /* Main */,
+				B917EBA9204970F3006B67B2 /* Message */,
+			);
+			path = snapchatNavigation;
+			sourceTree = "<group>";
+		};
+		B94AC5302048590F009E53DF /* snapchatNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B94AC5312048590F009E53DF /* snapchatNavigationTests.swift */,
+				B94AC5332048590F009E53DF /* Info.plist */,
+			);
+			path = snapchatNavigationTests;
+			sourceTree = "<group>";
+		};
+		B988ED0D20487D86005A670C /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				B988ED0920487D81005A670C /* PhotController.swift */,
+				B988ED0A20487D81005A670C /* PhotController.xib */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		B988ED142048A830005A670C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B917EBA120495A2A006B67B2 /* Main.swift */,
+				B917EBA220495A2A006B67B2 /* Main.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94AC5152048590F009E53DF /* snapchatNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94AC5362048590F009E53DF /* Build configuration list for PBXNativeTarget "snapchatNavigation" */;
+			buildPhases = (
+				B94AC5122048590F009E53DF /* Sources */,
+				B94AC5132048590F009E53DF /* Frameworks */,
+				B94AC5142048590F009E53DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snapchatNavigation;
+			productName = snapchatNavigation;
+			productReference = B94AC5162048590F009E53DF /* snapchatNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B94AC52C2048590F009E53DF /* snapchatNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94AC5392048590F009E53DF /* Build configuration list for PBXNativeTarget "snapchatNavigationTests" */;
+			buildPhases = (
+				B94AC5292048590F009E53DF /* Sources */,
+				B94AC52A2048590F009E53DF /* Frameworks */,
+				B94AC52B2048590F009E53DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94AC52F2048590F009E53DF /* PBXTargetDependency */,
+			);
+			name = snapchatNavigationTests;
+			productName = snapchatNavigationTests;
+			productReference = B94AC52D2048590F009E53DF /* snapchatNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94AC50E2048590F009E53DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mathieu Janneau";
+				TargetAttributes = {
+					B94AC5152048590F009E53DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B94AC52C2048590F009E53DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B94AC5152048590F009E53DF;
+					};
+				};
+			};
+			buildConfigurationList = B94AC5112048590F009E53DF /* Build configuration list for PBXProject "snapchatNavigation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B94AC50D2048590F009E53DF;
+			productRefGroup = B94AC5172048590F009E53DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94AC5152048590F009E53DF /* snapchatNavigation */,
+				B94AC52C2048590F009E53DF /* snapchatNavigationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94AC5142048590F009E53DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B988ED0C20487D81005A670C /* PhotController.xib in Resources */,
+				B917EBAD20497115006B67B2 /* StoriesController.xib in Resources */,
+				B917EBA420495A2A006B67B2 /* Main.xib in Resources */,
+				B917EBA8204970EE006B67B2 /* MessageController.xib in Resources */,
+				B94AC5272048590F009E53DF /* LaunchScreen.storyboard in Resources */,
+				B94AC5242048590F009E53DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94AC52B2048590F009E53DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94AC5122048590F009E53DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94AC51A2048590F009E53DF /* AppDelegate.swift in Sources */,
+				B94AC5222048590F009E53DF /* snapchatNavigation.xcdatamodeld in Sources */,
+				B917EBA7204970EE006B67B2 /* MessageController.swift in Sources */,
+				B988ED0B20487D81005A670C /* PhotController.swift in Sources */,
+				B917EBA320495A2A006B67B2 /* Main.swift in Sources */,
+				B917EBAC20497115006B67B2 /* StoriesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94AC5292048590F009E53DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94AC5322048590F009E53DF /* snapchatNavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B94AC52F2048590F009E53DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94AC5152048590F009E53DF /* snapchatNavigation */;
+			targetProxy = B94AC52E2048590F009E53DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B94AC5252048590F009E53DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94AC5262048590F009E53DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94AC5342048590F009E53DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B94AC5352048590F009E53DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94AC5372048590F009E53DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8A9QAD896;
+				INFOPLIST_FILE = snapchatNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieujanneau.snapchatNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B94AC5382048590F009E53DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8A9QAD896;
+				INFOPLIST_FILE = snapchatNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieujanneau.snapchatNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B94AC53A2048590F009E53DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8A9QAD896;
+				INFOPLIST_FILE = snapchatNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieujanneau.snapchatNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapchatNavigation.app/snapchatNavigation";
+			};
+			name = Debug;
+		};
+		B94AC53B2048590F009E53DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8A9QAD896;
+				INFOPLIST_FILE = snapchatNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieujanneau.snapchatNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapchatNavigation.app/snapchatNavigation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94AC5112048590F009E53DF /* Build configuration list for PBXProject "snapchatNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94AC5342048590F009E53DF /* Debug */,
+				B94AC5352048590F009E53DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94AC5362048590F009E53DF /* Build configuration list for PBXNativeTarget "snapchatNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94AC5372048590F009E53DF /* Debug */,
+				B94AC5382048590F009E53DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94AC5392048590F009E53DF /* Build configuration list for PBXNativeTarget "snapchatNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94AC53A2048590F009E53DF /* Debug */,
+				B94AC53B2048590F009E53DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B94AC5202048590F009E53DF /* snapchatNavigation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B94AC5212048590F009E53DF /* snapchatNavigation.xcdatamodel */,
+			);
+			currentVersion = B94AC5212048590F009E53DF /* snapchatNavigation.xcdatamodel */;
+			path = snapchatNavigation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B94AC50E2048590F009E53DF /* Project object */;
+}
