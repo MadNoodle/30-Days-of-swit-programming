@@ -10,3 +10,8 @@ Everyday, i will create a swift program to improve my skills. this project is in
 
 ### 3 videoPlayer
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/videoPlayer/videoPlayer.gif)
+
+### 4 Snapchat
+No visual
+### 5 Carousel effect
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/carousel/carousel.gif)
