@@ -19,3 +19,7 @@ No visual
 
 ### 6 get User Location
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/GetLocation/getLocation.gif)
+
+### 7 pullToRefresh
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/pullToRefresh/pullTpRefresh.gif)
+
