@@ -23,3 +23,6 @@ No visual
 ### 7 pullToRefresh
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/pullToRefresh/pullTpRefresh.gif)
 
+### 8 generatieGradient 
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/gradient/gradient.gif)
+
