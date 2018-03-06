@@ -26,3 +26,6 @@ No visual
 ### 8 generatieGradient 
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/gradient/gradient.gif)
 
+### 9 image Scroller
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/imageScroller/imageScroller.gif)
+
