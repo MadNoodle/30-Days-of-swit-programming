@@ -29,3 +29,5 @@ No visual
 ### 9 image Scroller
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/imageScroller/imageScroller.gif)
 
+### 10 video Background
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/videoBg/videoBg.gif)
