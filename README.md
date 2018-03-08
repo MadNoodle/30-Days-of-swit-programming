@@ -31,3 +31,7 @@ No visual
 
 ### 10 video Background
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/videoBg/videoBg.gif)
+
+### 11 Ramped tableView Cell
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/ClearTableViewCell/clearTableViewCell.gif)
+
