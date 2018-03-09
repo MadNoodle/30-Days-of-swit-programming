@@ -35,3 +35,5 @@ No visual
 ### 11 Ramped tableView Cell
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/ClearTableViewCell/clearTableViewCell.gif)
 
+### 12 Login Animation
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/LoginAnimation/loginAnimation.gif)
