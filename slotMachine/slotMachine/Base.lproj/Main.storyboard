@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MarkerFeltWide.ttf">
+            <string>MarkerFelt-Wide</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="slotMachine" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jungle" translatesAutoresizingMaskIntoConstraints="NO" id="hKv-3P-eI5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJa-tF-ZNn">
+                                <rect key="frame" x="36" y="417" width="303" height="50"/>
+                                <color key="backgroundColor" red="0.25882352939999997" green="0.80392156859999997" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OUx-k4-xPI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="userDidPressPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Msx-Ub-FRD"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Se-Qb-094">
+                                <rect key="frame" x="36" y="105" width="303" height="216"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt8-Oo-Qut">
+                                <rect key="frame" x="36" y="339" width="303" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="apo-mw-3s2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.91202799479166663" blue="0.4391818576388889" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BJa-tF-ZNn" secondAttribute="trailing" constant="36" id="30G-lN-p7f"/>
+                            <constraint firstItem="hKv-3P-eI5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9xQ-50-jV8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hKv-3P-eI5" secondAttribute="trailing" id="AYv-3l-fxA"/>
+                            <constraint firstItem="Pt8-Oo-Qut" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="GZA-o0-AHH"/>
+                            <constraint firstItem="6Se-Qb-094" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="PTn-Xb-MpF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BJa-tF-ZNn" secondAttribute="bottom" constant="200" id="S7m-ai-Ew8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pt8-Oo-Qut" secondAttribute="trailing" constant="36" id="UAq-wT-9eP"/>
+                            <constraint firstItem="hKv-3P-eI5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XsF-EQ-Vkc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Se-Qb-094" secondAttribute="trailing" constant="36" id="Z24-tW-1xo"/>
+                            <constraint firstItem="Pt8-Oo-Qut" firstAttribute="top" secondItem="6Se-Qb-094" secondAttribute="bottom" constant="18" id="dVk-lr-Xfb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hKv-3P-eI5" secondAttribute="bottom" id="iWL-ae-ZwU"/>
+                            <constraint firstItem="BJa-tF-ZNn" firstAttribute="top" secondItem="Pt8-Oo-Qut" secondAttribute="bottom" constant="18" id="oYi-ep-Lan"/>
+                            <constraint firstItem="BJa-tF-ZNn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="ofL-qN-WVh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="6Se-Qb-094" id="a9a-C8-3kM"/>
+                        <outlet property="playButton" destination="BJa-tF-ZNn" id="YNU-P9-GT9"/>
+                        <outlet property="result" destination="Pt8-Oo-Qut" id="Z1c-Li-4Vw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jungle" width="1000" height="600"/>
+    </resources>
+</document>
