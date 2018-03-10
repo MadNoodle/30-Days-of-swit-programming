@@ -37,3 +37,7 @@ No visual
 
 ### 12 Login Animation
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/LoginAnimation/loginAnimation.gif)
+
+### 13 Aniamted TableView
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/animTableView/animatedTableView.gif)
+
