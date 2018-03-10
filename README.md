@@ -41,3 +41,7 @@ No visual
 ### 13 Animated TableView
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/animTableView/animatedTableView.gif)
 
+### 14 slot Machine
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/slotMachine/slotMachine.gif)
+
+
