@@ -44,4 +44,7 @@ No visual
 ### 14 slot Machine
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/slotMachine/slotMachine.gif)
 
+### 15 animated Splash screen
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/animatedSplash/animatedSplash.gif)
+
 
