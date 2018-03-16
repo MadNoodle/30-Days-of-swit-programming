@@ -53,3 +53,5 @@ No visual
 ### 17 tumblerMenu
 ![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/TumblerMenu/tumblerMenu.gif)
 
+### 18 limitCharacter
+![alt text](https://github.com/MadNoodle/30-Days-of-swit-programming/blob/master/LimitCharacters/limitCharacters.gif)
